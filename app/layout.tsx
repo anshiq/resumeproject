@@ -14,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body >{children}
+   <div className='text-center bg-black text-white'>CopyRight 2023</div>
+      </body>
     </html>
   )
 }

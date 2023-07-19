@@ -18,7 +18,7 @@ import { FacebookIcon, GithubIcon } from "lucide-react"
 import { NavigationMenuContent,NavigationMenuItem,NavigationMenuLink,NavigationMenuTrigger,NavigationMenuList,navigationMenuTriggerStyle,NavigationMenu,NavigationMenuIndicator,NavigationMenuViewport} from "@/components/ui/navigation-menu"
 export default function MenubarDemo(){
   return <>
-    <div className="flex flex-row justify-around">
+    <div className="flex flex-row fixed w-full justify-around">
       <div>DevSamah</div>
       <Menubarcom/>
       <div className="flex flex-row gap-3 text-red-900" ><GithubIcon/> <FacebookIcon/></div>
