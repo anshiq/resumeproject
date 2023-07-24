@@ -23,7 +23,7 @@ export default function FrontPage() {
           </a>
         </div>
         {/* bg-gradient-to-r from-orange-700 to-red-700 */}
-        <div className="flex min-h-screen  flex-col-reverse sm:flex-row justify-around items-center">
+        <div className="flex min-h-screen my-3 flex-col-reverse sm:flex-row justify-around items-center">
           <div className="sm:w-2/5 w-4/5 ">
             <h1 className="text-3xl">Devatma</h1>
             <p>
@@ -46,7 +46,7 @@ export default function FrontPage() {
               Birth place: Shri Akbarpur Sahib,
             </p>
           </div>
-          <div className="sm:w-2/5 w-4/5  h-[60vh]  overflow-hidden">
+          <div className="sm:w-2/5 w-4/5  h-[60vh] my-3 overflow-hidden">
             <Image
               src={"/static/images/nature3.jpg"}
               className="w-full"
@@ -59,8 +59,8 @@ export default function FrontPage() {
       </div>
 
       <div className="flex sm:flex-row flex-col justify-around sm:items-start items-center  w-full mb-20 ">
-        <div className="sm:w-2/5 w-4/5 p-4  bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
-          <h1 className="text-3xl">Our Mission:</h1>
+        <div className="sm:w-2/5 mb-2 w-4/5 p-4  bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
+          <h1 className="text-3xl mb-2">Our Mission:</h1>
           <p>
             The Highest Meaning of Life develops scientific temper and higher
             feelings to build a society where humanity can reach to its highest
@@ -87,8 +87,8 @@ export default function FrontPage() {
             </ul>
           </p>
         </div>
-        <div className="sm:w-2/5 w-4/5 p-4 bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
-          <h1>Our Vision:</h1>
+        <div className="sm:w-2/5 mb-2 w-4/5 p-4 bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
+          <h1  className="text-3xl mb-2">Our Vision:</h1>
           <p>
             The Highest Meaning of Life envisions and practices humanitarianism
             and selfless services to others. Higher loves and higher-hates are
@@ -113,212 +113,3 @@ export default function FrontPage() {
   );
 }
 
-{
-  /* <div className="mt-6"> */
-}
-{
-  /*   <div className="flex  flex-row gap-6 justify-around  items-center h-[6rem] bg-orange-500"> */
-}
-{
-  /*     <Link className={linkClass} href="/">Listen</Link > */
-}
-{
-  /*     <Link className={linkClass}href="/hh">hh</Link > */
-}
-{
-  /*     <Link className={linkClass}href="/">Listen</Link > */
-}
-{
-  /*     <Link className={linkClass}href="/">Listen</Link > */
-}
-{
-  /*   </div> */
-}
-{
-  /* </div> */
-}
-{
-  /*       <div className='flex flex-col p-6'> */
-}
-{
-  /*         <h1>THOUGHT OF THE DAY</h1> */
-}
-{
-  /*         <p> */
-}
-{
-  /* I am a tree of divine life which produces blessed fruits. */
-}
-{
-  /*           He, who gets associated with me, like a branch is to a tree, not only avoids harm to himself and others but also produces blessed fruits in his own life and in the life of others. */
-}
-{
-  /*         </p> */
-}
-{
-  /*         <audio controls  > */
-}
-{
-  /*           <source src='https://www.w3schools.com/tags/horse.ogg' type='audio/ogg'/> */
-}
-{
-  /*         </audio> */
-}
-
-{
-  /*       </div> */
-}
-// second one
-{
-  /* <div className="flex sm:flex-row flex-col justify-around items-start w-full vision-mission "> */
-}
-{
-  /*   <div className="w-2/5 p-4  bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"> */
-}
-{
-  /*     <h1 className="text-3xl">Our Mission:</h1> */
-}
-{
-  /*     <p> */
-}
-{
-  /*       The Highest Meaning of Life develops scientific temper and higher */
-}
-{
-  /*       feelings to build a society where humanity can reach to its highest */
-}
-{
-  /*       level. It educates the people about the immutable laws of Nature and */
-}
-{
-  /*       its evolution for human soul (life-force). If we left this world a */
-}
-{
-  /*       little better place, with the following objects, that’s an */
-}
-{
-  /*       accomplishment for us. */
-}
-{
-  /*       <ul> */
-}
-{
-  /*         <li> */
-}
-{
-  /*           To raise awareness on the harms of various addictions such as */
-}
-{
-  /*           intoxicants, drugs, meat/egg/fish diet, gambling and all social */
-}
-{
-  /*           evils. */
-}
-{
-  /*         </li> */
-}
-{
-  /*         <li> */
-}
-{
-  /*           To encourage the removal of crimes and anti-social behaviour */
-}
-{
-  /*           within society. */
-}
-{
-  /*         </li> */
-}
-{
-  /*         <li>To promote cleaner living and healthier lifestyles.</li> */
-}
-{
-  /*         <li> */
-}
-{
-  /*           The advancement of education and altruistic life through the */
-}
-{
-  /*           provision of educational materials and to provide */
-}
-{
-  /*           underprivileged youths with educational scholarships. */
-}
-{
-  /*         </li> */
-}
-{
-  /*       </ul> */
-}
-{
-  /*     </p> */
-}
-{
-  /*   </div> */
-}
-{
-  /*   <div className="sm:w-2/5 w-3/4 p-4 bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"> */
-}
-{
-  /*     <h1>Our Vision:</h1> */
-}
-{
-  /*     <p> */
-}
-{
-  /*       The Highest Meaning of Life envisions and practices humanitarianism */
-}
-{
-  /*       and selfless services to others. Higher loves and higher-hates are */
-}
-{
-  /*       the only source for complete harmony and absolute unity among four */
-}
-{
-  /*       kingdoms of Nature. Also it envisions the better world —full of */
-}
-{
-  /*       highest values and its intrinsic beauty—where there is a kingdom of */
-}
-{
-  /*       complete love of Truth, Goodness and Beauty. The Highest Meaning of */
-}
-{
-  /*       Life envisions a ray of hope where the world will be free from all */
-}
-{
-  /*       kinds of social evils, all levels of exploitation and free from all */
-}
-{
-  /*       low-loves and low-hates. The beautiful future world where will be no */
-}
-{
-  /*       poor people, no beggars, no homeless people, no street children but */
-}
-{
-  /*       will be only saviour of life for others in the whole universe. We */
-}
-{
-  /*       want the earth without crimes, wars and without any kind of */
-}
-{
-  /*       exploitation in the human world, animals, plant kingdom and physical */
-}
-{
-  /*       world. The time must come when there will be existences in each */
-}
-{
-  /*       kingdom whose intra-group and extra-group relationships will be one */
-}
-{
-  /*       of pure service and absolute harmony. */
-}
-{
-  /*     </p> */
-}
-{
-  /*   </div> */
-}
-{
-  /* </div> */
-}

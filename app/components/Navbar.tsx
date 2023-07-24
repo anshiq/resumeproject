@@ -1,24 +1,16 @@
 'use client'
 import {
   Menubar,
-  MenubarCheckboxItem,
   MenubarContent,
   MenubarItem,
   MenubarMenu,
-  MenubarRadioGroup,
-  MenubarRadioItem,
-  MenubarSeparator,
-  MenubarShortcut,
-  MenubarSub,
-  MenubarSubContent,
-  MenubarSubTrigger,
   MenubarTrigger,
 } from "@/components/ui/menubar"
 import { FacebookIcon, GithubIcon } from "lucide-react"
 import { NavigationMenuContent,NavigationMenuItem,NavigationMenuLink,NavigationMenuTrigger,NavigationMenuList,navigationMenuTriggerStyle,NavigationMenu,NavigationMenuIndicator,NavigationMenuViewport} from "@/components/ui/navigation-menu"
-export default function MenubarDemo(){
+export default function Navbar(){
   return <>
-    <div className="flex flex-row fixed w-full justify-around">
+    <div className="flex flex-row fixed  w-full justify-around  bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
       <div>DevSamah</div>
       <Menubarcom/>
       <div className="flex flex-row gap-3 text-red-900" ><GithubIcon/> <FacebookIcon/></div>
