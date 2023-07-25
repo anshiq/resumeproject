@@ -1,4 +1,3 @@
-import Navbar from './components/Navbar'
 import './globals.css'
 import { Metadata } from 'next'
 export const metadata: Metadata = {
@@ -14,9 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-    <Navbar/>
         {children}
-   <div className='text-center w-full fixed bottom-0 bg-black text-white'>CopyRight 2023</div>
       </body>
     </html>
   )

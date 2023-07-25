@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar"
-import FrontPage from "./homeComponents/Front"
-// import BooksGrid from "./homeComponents/BooksGrid"
+import Dropdownmenu from "./component/Dropdownmenu";
+
 export default function Home(){
   return <>
-    <FrontPage/>
+    <h1>5</h1>
+    <Dropdownmenu/>
   </>
 
 }
