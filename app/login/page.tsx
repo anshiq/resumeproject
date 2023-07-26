@@ -3,6 +3,10 @@ import Image from "next/image";
 import LgImg from "./assets/login.png";
 
 type Props = {};
+export metadata = {
+  title: 'Login',
+  description: "login page"
+}
 
 function page({}: Props) {
   return (
