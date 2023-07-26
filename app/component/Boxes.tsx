@@ -39,6 +39,7 @@ function Boxes({}: Props) {
         {namePriceComponent}
       </div>
       <div className=" shadow-sm bg-white  rounded-xl p-4 flex-col flex gap-4  w-[95%] ">
+
         <TableBox />
       </div>
       <div className="rounded-xl gap-4  shadow-sm bg-white   flex flex-col  p-4 w-[95%]">
@@ -268,6 +269,7 @@ const TableBox = () => {
           cillum sint consectetur cupidatat.
         </span>
       </div>
+      <div className="p-2 bg-red-200 border-red-600 border rounded-sm">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</div>
 
       <table className="w-full border-black border">
         <thead>
