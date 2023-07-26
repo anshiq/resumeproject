@@ -1,5 +1,11 @@
 import Dropdownmenu from "./component/Dropdownmenu";
 import Boxes from "./component/Boxes";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: 'Home',
+  description: "home page"
+  
+}
 export default function Home() {
   const DropdownData = [
     { name: "Dashboard" },

@@ -185,11 +185,32 @@ function Boxes({}: Props) {
           <Textarea />
         </div>
       </div>
-      {/* <div className="border border-black rounded-xl  w-[95%]"> */}
-      {/* </div> */}
+      <div className="gap-4 flex  flex-row w-[95%]">
+        <div className="gap-4 rounded-xl  p-4 shadow-sm bg-white  flex flex-col  grow-[2]">
+          <div className="flex flex-col  flex-grow gap-2  ">
+            <label className="font-light">Label title</label>
+            <input
+              className="p-2 rounded-sm border border-black"
+              placeholder="Placeholder Content"
+              type="text"
+            />
+          </div>
+        </div>
+        <div className="gap-4 flex flex-col  p-4 grow rounded-xl shadow-sm bg-white ">
+          <div className="flex flex-col  flex-grow gap-2  ">
+            <label className="font-light">Label title</label>
+            <input
+              className="p-2 rounded-sm border border-black"
+              placeholder="Placeholder Content"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
+
 const TableBox = () => {
   return (
     <>
