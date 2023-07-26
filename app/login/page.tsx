@@ -3,7 +3,7 @@ import Image from "next/image";
 import LgImg from "./assets/login.png";
 
 type Props = {};
-export metadata = {
+export const metadata = {
   title: 'Login',
   description: "login page"
 }
