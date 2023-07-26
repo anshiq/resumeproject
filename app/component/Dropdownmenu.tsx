@@ -22,21 +22,37 @@ function Dropdownmenu({ name }: Props) {
   }, [toggle]);
 
   return (
-    <div className="flex my-2 w-[95%] text-white flex-col bg-black">
+    <div className="flex my-1 w-[95%] text-white flex-col bg-black">
       <div
-        className="cursor-pointer p-6 border-white border"
+        className="cursor-pointer flex justify-between flex-row p-2"
         onClick={() => setToggle(!toggle)}
       >
-        {name}
+        <div>{name}</div>
+        <div>
+          <svg
+   className={`transform ${toggle ? "rotate-180" : ""}`}
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.5 6.75L9 11.25L4.5 6.75"
+              stroke="white"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
       </div>
       <div
         ref={contentRef}
-        className={`flex  flex-col bg-gray-800 overflow-hidden transition-maxHeight ease-in-out duration-300`}
+        className={`flex  flex-col overflow-hidden transition-maxHeight ease-in-out duration-300`}
         style={{ maxHeight: toggle ? `${contentHeight}px` : "0" }}
       >
         {elements.map((link, index) => {
           return (
-            <a className="p-6" key={index} href={link.a}>
+            <a className="p-2" key={index} href={link.a}>
               {link.name}
             </a>
           );
